@@ -658,7 +658,6 @@ Terminal.prototype.getTextarea = function(document) {
   var self = this;
 
   var textarea = document.createElement('textarea');
-  textarea.style['z-index'] = '-1';
   textarea.style.position = 'absolute';
   textarea.style.left = '-32000px';
   textarea.style.top = '-32000px';
