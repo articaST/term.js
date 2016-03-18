@@ -675,7 +675,7 @@ Terminal.prototype.getTextarea = function(document) {
   textarea.autocomplete = 'off';
   textarea.autocorrect = 'off';
   textarea.autocapitalize = 'off';
-  textarea.spellcheck = 'false'
+  textarea.spellcheck = false
 
   var onInputTimestamp;
 
