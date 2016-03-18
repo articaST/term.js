@@ -672,8 +672,10 @@ Terminal.prototype.getTextarea = function(document) {
   textarea.style.borderStyle = 'none';
   textarea.style.outlineStyle = 'none';
   textarea.style.resize = 'none';
-  textarea.autocapitalize = 'none';
+  textarea.autocomplete = 'off';
   textarea.autocorrect = 'off';
+  textarea.autocapitalize = 'off';
+  textarea.spellcheck = 'false'
 
   var onInputTimestamp;
 
